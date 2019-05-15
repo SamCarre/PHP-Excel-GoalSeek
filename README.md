@@ -1,18 +1,9 @@
-# PHP-Excel-GoalSeek
+# PHP Excel GoalSeek
 
-[![Latest Version](https://img.shields.io/github/release/davidjr82/PHP-Excel-GoalSeek.svg?style=flat-square)](https://github.com/davidjr82/PHP-Excel-GoalSeek/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/davidjr82/PHP-Excel-GoalSeek/master.svg?style=flat-square)](https://travis-ci.org/davidjr82/PHP-Excel-GoalSeek)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/davidjr82/PHP-Excel-GoalSeek.svg?style=flat-square)](https://scrutinizer-ci.com/g/davidjr82/PHP-Excel-GoalSeek/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/davidjr82/PHP-Excel-GoalSeek.svg?style=flat-square)](https://scrutinizer-ci.com/g/davidjr82/PHP-Excel-GoalSeek)
-[![Total Downloads](https://img.shields.io/packagist/dt/league/PHP-Excel-GoalSeek.svg?style=flat-square)](https://packagist.org/packages/league/PHP-Excel-GoalSeek)
+[![Latest Version](https://img.shields.io/github/release/davidjr82/PHP-Excel-GoalSeek.svg?style=flat-square)](https://github.com/samcarre/PHP-Excel-GoalSeek/releases)
 
-
-Utility to emulate goalseek function in PHP
-
-## Install
-
-Just download and check simpletest.php for a quick start
+Utility to emulate goalseek function for PHP 7
 
 ## Usage
 
@@ -60,17 +51,14 @@ echo "Difference = " . ($actual_result - $expected_result);
 $ phpunit
 ```
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
 ## Security
 
-If you discover any security related issues, please email djimenez@e-datta.com instead of using the issue tracker.
+If you discover any security related issues, please email sam@codepotato.co.uk instead of using the issue tracker.
 
 ## Credits
 
-- [David Jiménez](https://github.com/davidjr82)
+- [David Jiménez](https://github.com/davidjr82) (Original Creator)
+- [Sam Carre](https://github.com/samcarre) (Maintainer)
 
 ## License
 

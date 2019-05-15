@@ -1,8 +1,8 @@
 <?php
 
-namespace davidjr82\PHPExcelGoalSeek;
+namespace samcarre\PHPExcelGoalSeek;
 
-use davidjr82\PHPExcelGoalSeek\Exceptions\PHPExcelGoalSeekException;
+use samcarre\PHPExcelGoalSeek\Exceptions\PHPExcelGoalSeekException;
 
 class PHPExcelGoalSeek
 {

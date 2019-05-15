@@ -1,11 +1,12 @@
 <?php
 
-namespace davidjr82\PHPExcelGoalSeek\Test;
+namespace samcarre\PHPExcelGoalSeek\Test;
 
-use davidjr82\PHPExcelGoalSeek\PHPExcelGoalSeek;
-use davidjr82\PHPExcelGoalSeek\Exceptions\PHPExcelGoalSeekException;
+use PHPUnit\Framework\TestCase;
+use samcarre\PHPExcelGoalSeek\PHPExcelGoalSeek;
+use samcarre\PHPExcelGoalSeek\Exceptions\PHPExcelGoalSeekException;
 
-class GoalSeek extends \davidjr82\PHPExcelGoalSeek\PHPExcelGoalSeek {
+class GoalSeek extends \samcarre\PHPExcelGoalSeek\PHPExcelGoalSeek {
 
     function callbackTest($input) {
         $inputForCallbackTest2 = $input * 8;
@@ -27,7 +28,7 @@ class GoalSeek extends \davidjr82\PHPExcelGoalSeek\PHPExcelGoalSeek {
 
 }
 
-class PHPExcelGoalSeekTest extends \PHPUnit_Framework_TestCase
+class PHPExcelGoalSeekTest extends TestCase
 {
 
     protected $goalseek;
@@ -86,7 +87,7 @@ class PHPExcelGoalSeekTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException davidjr82\PHPExcelGoalSeek\Exceptions\PHPExcelGoalSeekException
+     * @expectedException samcarre\PHPExcelGoalSeek\Exceptions\PHPExcelGoalSeekException
      */
     public function testException()
     {

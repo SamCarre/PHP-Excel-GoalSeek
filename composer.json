@@ -1,16 +1,12 @@
 {
-    "name": "davidjr82/PHP-Excel-GoalSeek",
-    "description": "Utility to emulate goalseek function in PHP",
+    "name": "samcarre/php-excel-goalseek",
+    "description": "Utility to emulate goalseek function for PHP 7",
     "keywords": [
-        "edatta",
-        "e-datta",
-        "davidjr82",
-        "PHP-Excel-GoalSeek",
         "php",
         "excel",
         "goalseek"
     ],
-    "homepage": "https://github.com/davidjr82/PHP-Excel-GoalSeek",
+    "homepage": "https://github.com/samcarre/PHP-Excel-GoalSeek",
     "license": "MIT",
     "authors": [
         {
@@ -18,28 +14,27 @@
             "email": "djimenez@e-datta.com",
             "homepage": "http://e-datta.com",
             "role": "Developer"
+        },
+        {
+            "name": "Sam Carre",
+            "email": "sam@codepotato.co.uk",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php" : ">=5.3.0"
+        "php" : ">=7.0.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : "4.*",
-        "scrutinizer/ocular": "~1.1"
+        "phpunit/phpunit" : "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "davidjr82\\PHPExcelGoalSeek\\": "src"
+            "samcarre\\PHPExcelGoalSeek\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "davidjr82\\PHPExcelGoalSeek\\Test\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
+            "samcarre\\PHPExcelGoalSeek\\Test\\": "tests"
         }
     }
 }

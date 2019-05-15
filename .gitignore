@@ -3,3 +3,4 @@ docs
 vendor
 /simpletest.php
 /composer.phar
+.idea

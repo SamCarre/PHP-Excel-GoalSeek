@@ -1,6 +1,6 @@
 <?php
 
-namespace davidjr82\PHPExcelGoalSeek\Exceptions;
+namespace samcarre\PHPExcelGoalSeek\Exceptions;
 
 /**
  * Class PHPExcelGoalSeekException.
