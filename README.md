@@ -1,7 +1,7 @@
 # PHP Excel GoalSeek
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Version](https://img.shields.io/github/release/davidjr82/PHP-Excel-GoalSeek.svg?style=flat-square)](https://github.com/samcarre/PHP-Excel-GoalSeek/releases)
+[![Latest Version](https://img.shields.io/github/release/samcarre/PHP-Excel-GoalSeek.svg?style=flat-square)](https://github.com/samcarre/PHP-Excel-GoalSeek/releases)
 
 Utility to emulate goalseek function for PHP 7
 
